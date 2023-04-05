@@ -1,6 +1,6 @@
 async function saveAlbum(){
 
-    // capturo el valor de los dos input
+    // capturo el valor de los dos input.
     const userId = document.getElementById("userId").value;
     const title = document.getElementById("title").value;
 
