@@ -7,14 +7,20 @@
 </head>
 
 <body>
-    <h1>Alta de album</h1>
-    <form id="formularioAlbum">
-        <label for="userId">User ID:</label>
-        <input type="number" id="userId">
-        <label for="title">Title:</label>
-        <input type="text" id="title">
-        <button type="button" onclick="saveAlbum()">Save</button>
-    </form>
+    <div id="contenedor">
+        <h1>Alta de album</h1>
+        <form id="formularioAlbum" name="formulario">
+            <label for="userId">User ID:</label>
+            <input type="number" id="userId">
+            <label for="title">Title:</label>
+            <input type="text" id="title">
+            <button type="button" onclick="saveAlbum()">Save</button>
+        </form>
+        <div id="respuesta">
+
+
+        </div>
+    </div>
 </body>
 
 </html>
