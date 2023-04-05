@@ -13,7 +13,7 @@ async function saveAlbum(){
     // https://jsonplaceholder.typicode.com/albums
     // {
     //     "userId" : 3,
-    //     "title": "Probando"
+    //     "title": "Probando 2"
     // }
    
     // crearmos y convertimos a json nuestro obj
